@@ -1,0 +1,7 @@
+{
+  "/new-moment": {
+    "target": "http://localhost:4201",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}

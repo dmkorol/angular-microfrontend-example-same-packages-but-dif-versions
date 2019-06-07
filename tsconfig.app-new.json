@@ -2,17 +2,14 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": [],
-    "paths": {
-      "moment": ["node_modules/moment-old"]
-    }
+    "types": []
   },
   "include": [
     "src/**/*.ts"
   ],
   "exclude": [
+    "src/app/**/*",
     "src/test.ts",
-    "src/app2/**/*",
     "src/**/*.spec.ts"
   ]
 }

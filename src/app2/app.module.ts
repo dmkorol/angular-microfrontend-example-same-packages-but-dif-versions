@@ -3,14 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainPageComponent } from './components/main-page.component';
-import { IframeComponent } from './components/iframe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainPageComponent,
-    IframeComponent,
   ],
   imports: [
     BrowserModule,
@@ -19,4 +15,4 @@ import { IframeComponent } from './components/iframe.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule2 { }
